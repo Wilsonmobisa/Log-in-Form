@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: url(bg.jpg);
+        background-size: cover;
+        font-family: sans-serif;
+    }
+    .box {
+        background-color: #191919;
+        width: 300px;
+        padding: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .box h1{
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .box input[type="text"], .box input[type="password"] {
+            border: 2px solid green;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            padding: 14px 10px;
+            width: 200px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            transition: 0.25s;
+    } 
+    .box input[type="text"]:focus, .box input[type="password"]:focus {
+        width: 260px;
+        border-color: green;
+    }
+    .box input[type="submit"] {
+        border: 2px solid green;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            padding: 14px 40px;
+            width: 200px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            transition: 0.25s;
+            cursor: pointer;
+    }
+    .box input[type="submit"]:hover {
+        background: white;
+        color: green;
+    }
+
+footer {
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-family: Raleways;
+}
+</style>
+
+<body>
+    <div class="box">
+        <form action="index.php">
+            <h1>Login Form</h1>
+            <input type="text" name="" placeholder="Username">
+            <input type="password" name="" placeholder="Password">
+            <input type="submit" name="" value="Login">
+        </form>
+    </div>
+    <footer>&copy; Wilson Mobisa</footer>
+</body>
+</html>
