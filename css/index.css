@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(bg.jpg);
   background-size: cover;
   font-family: sans-serif;
 }
@@ -15,7 +14,7 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.box h1 {
+.box h2 {
   color: white;
   text-transform: uppercase;
   font-weight: 500;
